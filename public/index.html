@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="styles4.css">
+    <title>Invictus Coaching</title>
+</head>
+<body>
+   <div class = "nav-container">
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="links" id = "navLinks">
+            <a href="#about">ABOUT</a>
+            <a href="#community">COMMUNITY</a>
+            <a href="#testimonials">CLIENT TESTIMONIALS</a>
+            <a href="#pricing">PACKAGES</a>
+        </div>
+        <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+   </div>
+
+    <section class="hero">
+        <img src="images/hero.jpg" alt="hero background image">
+        <div class="hero-text">
+            <h1>Envision. Execute. Elevate. </h1>
+            <p>Embrace Your Excellence. Partnering with Invictus not only unlocks your physical prowess but also fortifies your mental strength. Experience transformative changes in your body like never before.  </p>
+            <a href="#pricing" class="btn">SEE PRICING</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="images/about.jpg" alt="A vibrant image showcasing fitness training at Invictus">
+        </div>
+        <div class="about-text">
+            <h2>Meet Your Coach</h2>
+            <p class="subheading">Unlock Your Potential with Hasher Raja</p>
+            <p>Embark on a transformative journey with Hasher Raja, a seasoned fitness coach with over a decade of experience in sculpting physiques and building the mental fortitude necessary for a sustainable transformation. Hasher, a former competitive bodybuilder, uniquely intertwines his rich experience with an empathetic approach to coaching, ensuring each client’s journey is tailored, realistic, and intrinsically motivated. His philosophy extends beyond physical transformation, focusing on instilling mental strength, discipline, and a lifelong passion for wellness in all his clients. With Hasher, you’re not only achieving your fitness goals but elevating your overall life quality, ensuring that the changes you make are long-lasting and deeply rooted.</p>
+
+
+            <!--<a href="#contact" class="cta-button">Start Your Journey</a>-->
+
+        </div>
+    </section>
+
+    <div class = "live-feed" id="community">
+        <h2>Join The Community</h2>
+        <p>Explore our journey and share your own experiences with me on Instagram. Be part of the transformation!</p>
+        <figure data-behold-id="JuFuogBKvnlUdJb3Kxa3"></figure>
+        <script src="https://w.behold.so/widget.js" type="module"></script>
+    </div>
+
+
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="scroller" data-direction="right" data-speed="slow">
+            <div class="scroller__inner">
+                <div class="testimonial">
+                    <img src="images/client1.jpg" alt="Client 1" />
+                    <p class="quote"><i>"Amazing Experience!"</i></p>
+                    <p class="name">- Client 1</p>
+                </div>
+                <div class="testimonial">
+                    <img src="images/client2.jpg" alt="Client 2" />
+                    <p class="quote"><i>"Highly Recommended!"</i></p>
+                    <p class="name">- Client 2</p>
+                </div>
+                <div class="testimonial">
+                    <img src="images/client3.jpg" alt="Client 3" />
+                    <p class="quote"><i>"Incredible Transformation!"</i></p>
+                    <p class="name">- Client 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pricing" id="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-tables">
+            <div class="pricing-table">
+                <h4 class="plan-name">Nutrition Plan</h4>
+                <h3 class="price">$150/month</h3>
+                <ul class="plan-features">
+                    <li><strong>Fully Tailored Custom Nutrition:</strong>
+                        <ul>
+                            <li>Personalized meal plans based on your preferences and dietary needs.</li>
+                            <li>Allergen-friendly and dietary restriction options available.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Supplementation Guide:</strong>
+                        <ul>
+                            <li>Recommendations on vitamins and supplements.</li>
+                            <li>Guidance on timing and dosage for optimal benefits.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Weekly Check-Ins:</strong>
+                        <ul>
+                            <li>Weekly virtual sessions for progress updates.</li>
+                            <li>Continuous modification of plan based on results.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Dedicated Support:</strong>
+                        <ul>
+                            <li>Direct message support for any inquiries or adjustments.</li>
+                            <li>Response within 24 hours guaranteed.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Nutritional Education:</strong>
+                        <ul>
+                            <li>Resources and guides on understanding nutritional principles.</li>
+                            <li>Tips on maintaining a balanced diet.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Recipe Suggestions:</strong>
+                        <ul>
+                            <li>Access to a collection of healthy and tasty recipes.</li>
+                            <li>Guidance on meal preparation and cooking.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="" class="btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kevinyuzer0'});return false;">BOOK A CALL</a>
+            </div>
+    
+            <div class="pricing-table">
+                <h4 class="plan-name">Transformation Coaching</h4>
+                <h3 class="price">$250/month</h3>
+                <ul class="plan-features">
+                    <!-- Add detailed points as per the previous plan -->
+                    <li><strong>Fully Tailored Custom Nutrition:</strong>
+                        <ul>
+                            <li>Comprehensive nutrition plans considering your fitness goals.</li>
+                            <li> Tailored to support your workout regime and recovery.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Supplementation Guide:</strong>
+                       <ul>
+                            <li>Specialized supplement advice to complement your training.</li>
+                            <li>Information on pre and post-workout supplementation.</li>
+                       </ul>
+                    </li>
+                    <li><strong>Weekly Check-Ins:</strong>
+                        <ul>
+                            <li>In-depth weekly reviews to track your transformation journey.</li>
+                            <li> Detailed feedback and plan alterations.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Monthly FaceTime/Zoom Call:</strong>
+                        <ul>
+                            <li>Monthly one-on-one virtual session to discuss progress and challenges.</li>
+                            <li>Personalized advice and motivational support.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Tailored Training Program:</strong>
+                        <ul>
+                            <li>Customized workout plans matching your fitness level and goals.</li>
+                            <li>Periodic alterations to ensure continuous progression.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Form Adjustments:</strong>
+                        <ul>
+                            <li>Analysis of your workout form to ensure efficacy and safety.</li>
+                            <li>Corrective advice and potential alternative exercises.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Mindset Coaching:</strong>
+                        <ul>
+                            <li>Strategies to build a robust mental framework for your transformation.</li>
+                            <li>Regular mindset tasks and challenges.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="" class="btn" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kevinyuzer0'});return false;">BOOK A CALL</a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Calendly link widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kevinyuzer0'});return false;"></a>
+    <!-- Calendly link widget end -->
+    
+    <footer>
+        <div class="footer-content">
+            <img src="images/logo.png" alt="Your Company Logo" class="footer-logo">
+            <p>&copy; 2023 Invictus Coaching. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.twitter.com/yourpage" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <a href="https://www.instagram.com/yourpage" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
