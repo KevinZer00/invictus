@@ -1,4 +1,4 @@
-@media screen and (max-width: 1500px) {
+@media only screen and (min-width: 1001px) and (max-width: 1500px) {
 
     .links a {
         margin: 10px 5px;

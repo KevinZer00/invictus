@@ -4,6 +4,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .nav-container {
