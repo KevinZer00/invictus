@@ -1,7 +1,26 @@
+$(document).ready(function(){
+  $('.scroller__inner').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+  });
+});
+
+
 function toggleMenu() {
     document.getElementById("navLinks").classList.toggle("active");
     document.querySelector(".burger").classList.toggle("toggle");
 }
+
+
+document.querySelectorAll('.links').forEach(link => {
+  link.addEventListener('click', function() {
+      toggleMenu(); 
+  });
+});
+
 
 const scrollers = document.querySelectorAll(".scroller");
 
@@ -25,5 +44,6 @@ function addAnimation() {
     });
   });
 }
+
 
 
